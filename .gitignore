@@ -1,0 +1,65 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+laravel/storage/logs/*
+python-ai/logs/*
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Docker volumes
+docker-volumes/
+
+# Laravel specific
+laravel/vendor/
+laravel/node_modules/
+laravel/public/hot
+laravel/public/storage
+laravel/storage/*.key
+laravel/storage/app/*
+laravel/storage/framework/cache/*
+laravel/storage/framework/sessions/*
+laravel/storage/framework/views/*
+laravel/bootstrap/cache/*
+!laravel/storage/app/.gitignore
+!laravel/storage/app/public/.gitignore
+
+# Python specific
+python-ai/__pycache__/
+python-ai/*.pyc
+python-ai/*.pyo
+python-ai/*.pyd
+python-ai/.Python
+python-ai/env/
+python-ai/venv/
+python-ai/.env
+python-ai/models/*
+python-ai/temp/*
+!python-ai/models/.gitkeep
+!python-ai/temp/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SSL certificates
+ssl/*.pem
+ssl/*.key
+ssl/*.crt
+
+# Backup files
+*.backup
+*.bak

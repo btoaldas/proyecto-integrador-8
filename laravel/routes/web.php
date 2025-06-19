@@ -18,7 +18,7 @@ use App\Http\Controllers\AuthController;
 
 // Public routes
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('login');
 })->name('home');
 
 Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
